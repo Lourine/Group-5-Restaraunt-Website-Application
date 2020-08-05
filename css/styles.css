@@ -6,3 +6,30 @@ h4{
   font-weight: bolder;
   font-size: 20px;
 }
+body{
+  margin-top: 10px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+}
+#content{
+  height: 400px;
+  width: 750px;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+#content .images{
+  height: 100%;
+  width: 100%;
+}
+.images img{
+  height: 100%;
+  width: 100%;
+}
+.hide, .hide1, .hide2, .hide3{
+  display: none;
+}
+#hide{
+  display: none;
+}

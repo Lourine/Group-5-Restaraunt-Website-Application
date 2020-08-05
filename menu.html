@@ -8,57 +8,111 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <!---Required Javascript Links-->
   <!--JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-  <title>Document</title>
   
+  <title>Document</title>
+
 </head>
 <body>
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-           <div class="col-10 pb-5 text-center">
-             <h1 class="quicksand-font header text-uppercase">Menu</h1>
-             <hr>
-            </div>
+  <div class="container-fluid" id="content">
+    <div class="row">
+      <div class="column">
+      <div class="text">
+        <div class="images">
+           <img src="images/floating island.jpeg">
+           <img src="images/sorbet.jpg">
+           <img src="images/penna ale vodka pasta.jpg" >
+           <img src="images/aged beef.jpg">
+           <img src="images/burger.jpeg"> 
+           <img src="images/food1.jpeg"> 
+           <img src="images/food2.jpeg"> 
+           <img src="images/desert1.jpeg"> 
           </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Starters</h4>
-        <p class="text-uppercase">Falafel Croustillant</p>
-        <p class="text-uppercase">Egg plant roll ups</p>
-        <p class="text-uppercase">Chicken Liver Terrine</p>
-        <p class="text-uppercase">Carpaccio Du Beouf</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container" id="menu">
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 pb-3 text-center">
+          <h1 class="quicksand-font header text-uppercase" id="menu">Menu</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+    <div class="col-10 pb-3 text-center">
+      <h4 class="text-center quicksand-font text-uppercase" id="header">Starters</h4>
+      <div class="hide">
+        <p class="text-uppercase">Falafel Croustillant--------Ksh 300</p>
+        <p>Crispy falafel served with beetroot tahini & carrot chips</p>
+        <p class="text-uppercase" >Egg plant roll ups--------Ksh 300</p>
+        <p>Grilled Eggplant rolled with cream cheese served with dried tomato garden salad</p>
+        <p class="text-uppercase">Chicken Liver Terrine--------Ksh 400</p>
+        <p>Served with Crostini Bread & Cherry Tomato Chutney</p>
+        <p class="text-uppercase">Carpaccio Du Beouf--------Ksh 500</p>
+        <p>Thinly sliced beef drizzled with olive oil, balsamic & parmesan cheese</p>
+        </div>
     </div>
   </div>
   <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Main Course</h4>
-      <p class="text-uppercase">Aged Beef Medallion</p>
-      <p class="text-uppercase">Salmon Fillet</p>
-      <p class="text-uppercase">Provence Style Chicken Thighs</p>
-      <p class="text-uppercase">Couscous</p>
+    <div class="col-10 pb-3 text-center">
+      <h4 class="text-center quicksand-font text-uppercase"id="header1">Main Course</h4>
+      <div class="hide1">
+      <p class="text-uppercase" id="show" target="1">Aged Beef Medallion</p>
+      <p id="hide">Served with mashed potatoes and mashed carrots with rich creamy & brandy pepper sauce</p>
+      <p class="text-uppercase" id="show">Salmon Fillet</p>
+      <p id="hide">Served on a bed of cream dill chives sauce with yellow panfried spinach</p>
+      <p class="text-uppercase" id="show">Provence Style Chicken Thighs</p>
+      <p id="hide">Served with butternut puree with garlic confit capers and rosemary</p>
+      <p class="text-uppercase"id="show">Penne alla Vodka Pasta</p>
+      <p id="hide">Tossed in creamy tomato,vodka sauce. Served with grilled shrimp</p>
+      <p class="text-uppercase"id="show">Smoky Grilled Salmon</p>
+      <p id="hide">Served with spinach & Feta succotash</p>
+      <p class="text-uppercase"id="show">Chicken Tacco</p>
+      <p id="hide">Served with panfried Veggis and Eggplant Parmagiano</p>
+      <p class="text-uppercase"id="show">Pork Chops</p>
+      <p id="hide">Served with grilled tomatoes & basil</p>
+      <p class="text-uppercase"id="show">Beef Burger </p>
+      <p id="hide">served with fries & Italian green salad</p>
+      <p class="text-uppercase"id="show">Deli Sandwiches</p>
+      <p id="hide">Served with Chicken nuggets & Heart of palm salad</p>
+      <p class="text-uppercase"id="show">Chicken Dumplngs</p>
+      <p id="hide">served with baked potatoes</p>
+      <p class="text-uppercase"id="show">BBQ Chicken</p>
+      <p id="hide">Served with stuffed shells and stir fry vegetables </p>
+      <p class="text-uppercase"id="show">Ugali</p>
+      <p id="hide">Served with chicken or beef or mutton or fish with stirfry vegetables </p>
+      </div>
+
     </div>
   </div>
   <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Dessert</h4>
+    <div class="col-10 pb-3 text-center">
+      <h4 class="text-center quicksand-font text-uppercase" id="header2">Dessert</h4>
+      <div class="hide2">
       <p class="text-uppercase">Chocolate Soufflet</p>
       <p class="text-uppercase">Strawberry and Vanilla Sorbet</p>
+      <p class="text-uppercase">Floating Islands</p>
+      <p class="text-uppercase">White chocolate chese cake</p>
+      <p class="text-uppercase">Hazelnut Ice Cream</p>
+</div>
     </div>
   </div>
   
   <div class="row d-flex justify-content-center">
-      <div class="col-10 pb-5 text-center">
-        <h4 class="text-center quicksand-font text-uppercase">Drinks</h4>
+      <div class="col-10 pb-3 text-center">
+        <h4 class="text-center quicksand-font text-uppercase"id="header3">Drinks</h4>
+        <div class="hide3">
         <p class="text-uppercase">Soda</p>
         <p class="text-uppercase">Mineral water</p>
         <p class="text-uppercase">Wine</p>
+        </div>
       </div>
     </div>
   </div>
   
-  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
