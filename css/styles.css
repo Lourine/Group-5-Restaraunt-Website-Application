@@ -314,3 +314,90 @@ section .section-title {
  
   
 
+#login-button {
+  padding-left: 5cm;
+  padding-right: 5cm;
+  margin-left: 8%;
+  margin-top: 0.8cm;
+  border-radius: 0.8cm;
+  font-weight: bold;
+}
+.form-control {
+  padding-right: 0cm;
+  border:none
+}
+.login-page {
+  position: absolute;
+  background-color: black;
+  width: 500px;
+  height:720px;
+  margin-bottom: 5cm;
+  margin-top: -23cm;
+  border-radius: 1cm;
+  margin-left: 15cm;
+
+}
+.username-form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+}
+.password-form input[type ="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+.username-form {
+  margin-left: 20%;
+  margin-top: 1.5cm;
+}
+.password-form {
+  margin-left: 20%;
+}
+#log-in {
+  margin-left: 2cm;
+  color: aliceblue;
+  margin-top: 1.5cm;
+
+}
+#avatar {
+  margin-left: 3cm;
+  border-radius: 60cm;
+  border-width: 100%;
+  color: brown;
+  transform: translate(-0%,-50%);
+}
+label {
+  font-weight: bold;
+  color: #fff;
+}
+#login-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+ 
+}
+#avatar {
+  margin-left: 3.5cm;
+  border-radius: 60cm;
+  color: brown;
+  transform: translate(-0%,-50%);
+}
+#remember {
+  margin-top: 1cm;
+  margin-left: 1cm;
+}
+#alert {
+  margin-top: 1cm;
+  margin-left: 1cm;
+  color: antiquewhite;
+  font-size: 18px;
+}
