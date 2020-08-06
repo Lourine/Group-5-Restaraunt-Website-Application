@@ -11,21 +11,8 @@ body{
   padding: 0;
   align-items: center;
   justify-content: center;
+  position: relative;
 
-}
-#content{
-  height: 400px;
-  width: 750px;
-  overflow: hidden;
-  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
-}
-#content .images{
-  height: 100%;
-  width: 100%;
-}
-.images img{
-  height: 100%;
-  width: 100%;
 }
 .hide, .hide1, .hide2, .hide3{
   display: none;
@@ -33,3 +20,22 @@ body{
 #hide{
   display: none;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  #myCarousel{
+    width: 100vw;
+    height: 100px;
+    z-index: 5;
+    position: relative;
+    width: 70%;
+    height: 400px;
+  }
+  footer{
+    background-color: black;
+    color: bisque;
+    font-size: 20px;
+  }
+  
