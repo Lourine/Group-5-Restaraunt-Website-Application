@@ -16,8 +16,11 @@ body{
 }
 .hide, .hide1, .hide2, .hide3{
   display: none;
+  
 }
-#hide{
+
+
+.hideme{
   display: none;
 }
 .carousel-inner > .item > img,

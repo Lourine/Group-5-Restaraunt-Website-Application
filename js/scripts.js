@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-//menu
+ // menu
            
 $('#header').click(function () {
   $('.hide').toggle();
@@ -23,6 +23,18 @@ $('#show').click(function () {
   $('#hide' + $(this).attr('target')).toggle();
 });
 
+$('#showBtn').click(function() {
+  //$('.hideme').hide();  
+  if ($(this).hasClass('active')) {    
+    $(this).removeClass('active');
+    $('.hideme').slideUp();
+  } else {
+    $('.hideme').slideUp();
+    $('#showBtn').removeClass('active');
+    $(this).addClass('active');
+    $(this).next().filter('.hideme').slideDown();
+  }
+});
 
   // Activate Carousel
   $("#myCarousel").carousel({interval: 500});
