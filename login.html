@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Log in page</title>
+    <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--Required Bootstrap CSS links and custom css link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!---Required Javascript Links-->
+  <!--JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  </header>
+  <body>
+    <img src="images/landing-image.jpg" id="login-image">
+    <div class="login-page">
+     
+      <form>
+        
+        <img src="images/avatar.png." id="avatar">
+      
+        <h2 id="log-in">Log In</h2>
+        <div class="username-form">
+          <label for="username">Username</label><br>
+          <input type="text"  id="username" value="username" placeholder="Enter username" required>
+        </div>
+        <div class="password-form">
+          <label for="password">Password</label><br>
+          <input type="password"  id="password" value="password" placeholder="password" required><br>
+        </div>
+        <button type="button" class="btn btn-warning" id="login-button" onclick="logIn()"><a href="index.html">Log In</a></button>
+        <div id="alert"></div>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" id="remember"> Remember me <label>
+          </label>
+       
+      </form>
+    </div>
+    
+    
+ 
+  </body>
+</html>

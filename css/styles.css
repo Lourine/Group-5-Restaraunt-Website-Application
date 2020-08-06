@@ -1,44 +1,87 @@
-.html,body{
-  background-image: url(../images/pexels-photo-326279.jpeg);
-  color: white;
+#login-button {
+  padding-left: 5cm;
+  padding-right: 5cm;
+  margin-left: 8%;
+  margin-top: 0.8cm;
+  border-radius: 0.8cm;
+  font-weight: bold;
 }
-h4{
-  font-weight: bolder;
-  font-size: 20px;
+.form-control {
+  padding-right: 0cm;
+  border:none
 }
-body{
-  margin-top: 10px;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
+.login-page {
+  position: absolute;
+  background-color: black;
+  width: 500px;
+  height:720px;
+  margin-bottom: 5cm;
+  margin-top: -23cm;
+  border-radius: 1cm;
+  margin-left: 15cm;
+
+}
+.username-form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+}
+.password-form input[type ="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+.username-form {
+  margin-left: 20%;
+  margin-top: 1.5cm;
+}
+.password-form {
+  margin-left: 20%;
+}
+#log-in {
+  margin-left: 2cm;
+  color: aliceblue;
+  margin-top: 1.5cm;
+
+}
+#avatar {
+  margin-left: 3cm;
+  border-radius: 60cm;
+  border-width: 100%;
+  color: brown;
+  transform: translate(-0%,-50%);
+}
+label {
+  font-weight: bold;
+  color: #fff;
+}
+#login-image {
+  width: 100%;
+  height: auto;
   position: relative;
-
+ 
 }
-.hide, .hide1, .hide2, .hide3{
-  display: none;
-  
+#avatar {
+  margin-left: 3.5cm;
+  border-radius: 60cm;
+  color: brown;
+  transform: translate(-0%,-50%);
 }
-
-
-.hideme{
-  display: none;
+#remember {
+  margin-top: 1cm;
+  margin-left: 1cm;
 }
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-  }
-  #myCarousel{
-    width: 100vw;
-    height: 100px;
-    z-index: 5;
-    position: relative;
-    width: 70%;
-    height: 400px;
-  }
-  footer{
-    background-color: black;
-    color: bisque;
-    font-size: 20px;
-  }
-  
+#alert {
+  margin-top: 1cm;
+  margin-left: 1cm;
+  color: antiquewhite;
+  font-size: 18px;
+}
