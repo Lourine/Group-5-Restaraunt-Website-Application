@@ -13,6 +13,7 @@ html,body {
     padding-top: 4%;
     padding-bottom: 4%;
     height: 100vh;
+    font-family: cursive;
   }
   .order-overlay{
     background-color: #D4A017;
@@ -70,8 +71,15 @@ html,body {
     background-color: burlywood;
   }
 .body{
-  background-image: url(../images/pexels-photo-326279.jpeg);
+  background-image: url(../images/steak.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: fantasy;
 }
 h4{
   font-weight: bolder;
@@ -106,6 +114,7 @@ body{
     position: relative;
     width: 70%;
     height: 400px;
+    margin-top: 70px;
   }
   footer{
     background-color: black;
@@ -137,7 +146,7 @@ body {
 
 .navbar a:not(.navbar-brand) {
   font-weight: bolder;
-  font-size: 1.4em;
+  font-size: 40px;
   color: #ffffff !important;
 }
 .navbar a:not(.navbar-brand):hover{
