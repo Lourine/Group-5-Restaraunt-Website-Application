@@ -17,20 +17,31 @@
   <script src="js/scripts.js"></script>
   </header>
   <body>
-    <div class="container">
-      <h2>Log In</h2>
+    <img src="images/landing-image.jpg" id="login-image">
+    <div class="login-page">
+     
       <form>
-        <div class="form-group">
-          <label for="formGroupExampleInput">Username</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+        
+        <img src="images/avatar.png." id="avatar">
+      
+        <h2 id="log-in">Log In</h2>
+        <div class="username-form">
+          <label for="username">Username</label><br>
+          <input type="text"  id="username" value="username" placeholder="Enter username" required>
         </div>
-        <div class="form-group">
-          <label for="formGroupExampleInput2">Password</label>
-          <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="password-form">
+          <label for="password">Password</label><br>
+          <input type="password"  id="password" value="password" placeholder="password" required><br>
         </div>
-        <button type="button" class="btn btn-danger" id="login-button">Danger</button>
+        <button type="button" class="btn btn-warning" id="login-button" onclick="logIn()"><a href="index.html">Log In</a></button>
+        <div id="alert"></div>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" id="remember"> Remember me <label>
+          </label>
+       
       </form>
     </div>
+    
     
  
   </body>
