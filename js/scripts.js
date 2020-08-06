@@ -1,19 +1,6 @@
-var indexValue = 0;
-      function slideShow(){
-        setTimeout(slideShow, 2500);
-        var x;
-        const img = document.querySelectorAll("img");
-        for(x = 0; x < img.length; x++){
-          img[x].style.display = "none";
-        }
-        indexValue++;
-        if(indexValue > img.length){indexValue = 1}
-        img[indexValue -1].style.display = "block";
-      }
-      slideShow();
-
-
-      //menu
+$(document).ready(function(){
+ 
+//menu
            
 $('#header').click(function () {
   $('.hide').toggle();
@@ -34,4 +21,31 @@ $('#header3').click(function () {
 $('#show').click(function () {
   $('#hide').toggle();
   $('#hide' + $(this).attr('target')).toggle();
+});
+
+
+  // Activate Carousel
+  $("#myCarousel").carousel({interval: 500});
+    
+  // Enable Carousel Indicators
+  $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+  $(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+  });
+    
+  // Enable Carousel Controls
+  $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+  $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+  });
 });
