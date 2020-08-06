@@ -1,4 +1,75 @@
-.menu{
+
+html,body {
+  scroll-behavior: smooth;
+}
+/* order section */
+.order{
+    background-attachment: fixed;
+    background-image: url(https://static1.squarespace.com/static/575737bc40261ddcdeb85179/5ce5b51dee6eb023ab6bda97/5d110e8480e68300019f3e91/1587735064800/ingredients1.jpg?format=1000w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 100vh;
+  }
+  .order-overlay{
+    background-color: #D4A017;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    height: 75vh;
+  }
+  .order h2 {
+    text-align: center;
+  }
+  .choice{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .pick-up{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .choice h2{
+    color:orange;
+    text-align: left;
+  }
+  #your-orders{
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+  #finalmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+  }
+  #regards{
+    text-align: center;
+    color: aliceblue;
+  }
+  #info{
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: #FFFFFF;
+  }
+  button {
+    border-radius: 15px;
+    background-color: burlywood;
+  }
+.body{
   background-image: url(../images/pexels-photo-326279.jpeg);
   color: white;
 }

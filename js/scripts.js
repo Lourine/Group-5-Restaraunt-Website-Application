@@ -432,7 +432,7 @@ function logIn() {
     event.preventDefault()
   }
   else {
-    document.getElementById("alert").innerHTML=("Welcome to Mama's Kitchen")
+    document.getElementById("alert").innerHTML=("Welcome to Urban Gourmet Kitchen")
   }
 }
 
