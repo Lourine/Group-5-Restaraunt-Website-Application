@@ -347,7 +347,7 @@ $(document).ready(function(){
       $("button.deliver").slideDown(1000);
       $("#addedprice").slideDown(1000);
       console.log("Your total bills is sh. "+checkoutTotal);
-      $("#foodtotal").append("Your bill is sh. "+checkoutTotal);
+      $("#foodtotal").append("Your bill is sh. "+checkoutTotal +" "+"Thank you for choosing to dine with us");
     });
 
     $("button#final-order").click(function(event){
@@ -436,6 +436,8 @@ function logIn() {
   }
 }
 function order(){
-  
-}
 
+}
+function contact() {
+  alert("We have received your message, thanks for reaching out");
+}
