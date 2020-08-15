@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Required Bootstrap CSS links and custom css link-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+        <link rel="stylesheet" href="css/styles.css">
+         <!---Required Javascript Links-->
+         <!--JavaScript -->
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         
+         <script src="js/scripts.js"></script>
+         <title>Log in page</title>
+        </head>
+  <body>
+    <div class="container-fluid">
+      <img src="images/landing-image.jpg" id="login-image" class="img-fluid">
+      <div class="login-page">
+        <form id="login-form"> 
+          <img src="images/avatar.png." id="avatar" class="img-fluid">
+          <h2 id="log-in">Log In</h2>
+        <div class="username-form">
+          <label for="username">Username</label><br>
+          <input type="text"  id="username" value="username" placeholder="Enter username" required>
+        </div>
+      
+        <div class="password-form">
+          <label for="password">Password</label><br>
+          <input type="password"  id="password" value="password" placeholder="password" required><br>
+        </div>
+        <a href="home.html" button class="btn btn-warning" id="login-button" onclick="logIn()">Log In</button></a>
+        <div id="alert"></div>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" id="remember"> Remember me <label>
+          </label>
+       
+      </form>
+    </div>
+    
+    
+ </div>
+  </body>
+</html>
